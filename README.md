@@ -33,6 +33,15 @@ First select database ```use database_name``` Then ```show tables```
     -> );
 ```
 
+### How to `insert` data into table?
+``` 
+INSERT INTO users(first_name, last_name, email, password, address, is_admin, register_date)
+VALUES('mbr', 'sagor', 'mbrsagor@gmail.com', '12345@123', 'Uttara sector#11 road#10/B', 1, date()); 
+```
+
+### How all data
+``` SELECT FROM * db_name.users ```
+
 ### How to show table column/fields ?
 ``` SHOW COLUMNS FROM table_name ```
 
