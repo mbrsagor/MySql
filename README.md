@@ -56,6 +56,11 @@ SELECT * FROM WHERE users address='uttara' AND id=1;
 OR
 ``` SELECT * FROM WHRE users is_admin >0 ```
 
+### How to `Delete` row from the table?
+```
+DELETE FROM users id=1; 
+```
+
 ### How to show table column/fields ?
 ``` SHOW COLUMNS FROM table_name ```
 
