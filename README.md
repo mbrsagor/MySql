@@ -9,3 +9,7 @@
  ### How to exit from `MySql' ?
  Run ``` exit ``` command
 
+### How to create database?
+
+``` CREATE DATABASE 'db_name' ```
+ 
