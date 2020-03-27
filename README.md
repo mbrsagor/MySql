@@ -19,6 +19,23 @@
 ### List of table in the dataase
 First select database ```use database_name``` Then ```show tables```
 
+### How to create table?
+```CREATE TABLE users (
+    -> id INT AUTO_INCREMENT,
+    -> fast_name varchar(50),
+    -> last_name varchar(50),
+    -> email varchar(70),
+    -> password varchar(50),
+    -> address varchar(50),
+    -> is_admin TINYINT(1),
+    -> register_date DATETIME,
+    -> PRIMARY KEY(id)
+    -> );
+```
+
+### How to show table?
+``` show Tables ```
+
 ### How to delete database?
 ``` DROP DATABASE 'db_name'; ```
  
