@@ -56,6 +56,11 @@ SELECT * FROM WHERE users address='uttara' AND id=1;
 OR
 ``` SELECT * FROM WHRE users is_admin >0 ```
 
+### Update table row
+```
+UDPATE users SET email='brshagor.cse@gmail.com' WHERE ID=1;
+```
+
 ### How to `Delete` row from the table?
 ```
 DELETE FROM users id=1; 
@@ -66,6 +71,21 @@ DELETE FROM users id=1;
 
 ### How to show table?
 ``` show Tables ```
+
+### How to `alter` table?
+```
+ALTER TABLE users ADD age varchar(6)
+```
+
+### How to modify column?
+```
+ALTER TABLE users MODIFY COLUMN age INT(6);
+```
+
+### Order by ASC
+```
+SELECT * FROM users ORDER BY email ASC;
+```
 
 ### Delete table
 ``` drop table table_name```
