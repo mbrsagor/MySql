@@ -39,7 +39,7 @@ INSERT INTO users(first_name, last_name, email, password, address, is_admin, reg
 VALUES('mbr', 'sagor', 'mbrsagor@gmail.com', '12345@123', 'Uttara sector#11 road#10/B', 1, date()); 
 ```
 
-### How all data
+### Show all data
 ``` SELECT FROM * db_name.users ```
 
 ### How to show table column/fields ?
