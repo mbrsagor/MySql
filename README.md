@@ -36,6 +36,9 @@ First select database ```use database_name``` Then ```show tables```
 ### How to show table?
 ``` show Tables ```
 
+### Delete table
+``` drop table table_name```
+
 ### How to delete database?
 ``` DROP DATABASE 'db_name'; ```
  
