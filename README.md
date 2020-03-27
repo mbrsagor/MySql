@@ -7,5 +7,5 @@
  ``` 'SELECT user, host FROM mysql.user'; ```
 
  ### How to exit from `MySql' ?
- ``` exit ```
+ Run ``` exit ``` command
 
