@@ -33,6 +33,9 @@ First select database ```use database_name``` Then ```show tables```
     -> );
 ```
 
+### How to show table column/fields ?
+``` SHOW COLUMNS FROM table_name ```
+
 ### How to show table?
 ``` show Tables ```
 
