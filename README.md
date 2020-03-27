@@ -1,5 +1,7 @@
 ## MySql tutorial
 
+The tutorial is not for advance user. You may run the command your terminal here all of 'Query' for very basic. I will try to share day by day advance topic and complex query. If have any kind of wrong please forgive me because of I am also learning.
+
 ### How to create mysql user?
  ```CREATE USER 'Sagor'@'localhost' IDENTIFIED BY '12345';```
 
