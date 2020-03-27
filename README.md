@@ -22,7 +22,7 @@ First select database ```use database_name``` Then ```show tables```
 ### How to create table?
 ```CREATE TABLE users (
     -> id INT AUTO_INCREMENT,
-    -> fast_name varchar(50),
+    -> first_name varchar(50),
     -> last_name varchar(50),
     -> email varchar(70),
     -> password varchar(50),
@@ -44,4 +44,9 @@ First select database ```use database_name``` Then ```show tables```
 
 ### How to delete database?
 ``` DROP DATABASE 'db_name'; ```
+
+### How to export mysql database?
+``` mysqldump -u root -p db_name | gzip > eco.sql.zip ```
  
+### How to Import mysql database?
+``` mysql -u root -p db_name < ~/Desktop/database/db_name.sql ```
