@@ -46,13 +46,15 @@ VALUES('mbr', 'sagor', 'mbrsagor@gmail.com', '12345@123', 'Uttara sector#11 road
 
 ### How to `filter` or query in database?
 ```
-SELECT * FROM WHERE address='uttara';
+SELECT * FROM WHERE users address='uttara';
 ```
 
 ### How to `filter` or query `multiple` in database?
 ```
-SELECT * FROM WHERE address='uttara' AND id=1;
+SELECT * FROM WHERE users address='uttara' AND id=1;
 ```
+OR
+``` SELECT * FROM WHRE users is_admin >0 ```
 
 ### How to show table column/fields ?
 ``` SHOW COLUMNS FROM table_name ```
