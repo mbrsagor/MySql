@@ -22,7 +22,8 @@ The tutorial is not for advance user. You may run the command your terminal here
 First select database ```use database_name``` Then ```show tables```
 
 ### How to create table?
-```CREATE TABLE users (
+```
+CREATE TABLE users (
     -> id INT AUTO_INCREMENT,
     -> first_name varchar(50),
     -> last_name varchar(50),
