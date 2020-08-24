@@ -43,29 +43,21 @@ VALUES('mbr', 'sagor', 'mbrsagor@gmail.com', '12345@123', 'Uttara sector#11 road
 ```
 
 ### Show all data
-``` SELECT FROM * db_name.table_name ```
+``` SELECT FROM * table_name ```
 
 ### How to `filter` or query in database?
-```
-SELECT * FROM WHERE table_name address='uttara';
-```
+```SELECT * FROM WHERE table_name address='uttara';```
 
 ### How to `filter` or query `multiple` in database?
-```
-SELECT * FROM WHERE table_name address='uttara' AND id=1;
-```
+```SELECT * FROM WHERE table_name address='uttara' AND id=1;```
 OR
 ``` SELECT * FROM WHRE table_name is_admin >0 ```
 
 ### Update table row
-```
-UDPATE table_name SET email='brshagor.cse@gmail.com' WHERE ID=1;
-```
+```UDPATE table_name SET email='brshagor.cse@gmail.com' WHERE ID=1;```
 
 ### How to `Delete` row from the table?
-```
-DELETE FROM table_name id=1; 
-```
+```DELETE FROM table_name id=1; ```
 
 ### How to show table column/fields ?
 ``` SHOW COLUMNS FROM table_name ```
@@ -74,19 +66,13 @@ DELETE FROM table_name id=1;
 ``` show Tables ```
 
 ### How to `alter` table?
-```
-ALTER TABLE users ADD age varchar(6)
-```
+```ALTER TABLE users ADD age varchar(6)```
 
 ### How to modify column?
-```
-ALTER TABLE users MODIFY COLUMN age INT(6);
-```
+```ALTER TABLE users MODIFY COLUMN age INT(6);```
 
 ### Order by ASC
-```
-SELECT * FROM users ORDER BY email ASC;
-```
+```SELECT * FROM users ORDER BY email ASC;```
 
 ### Delete table
 ``` drop table table_name```
